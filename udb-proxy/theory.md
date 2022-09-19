@@ -41,6 +41,7 @@ Select 语句， 也只会发送到主节点。
 
 1.4 暂不支持XA事物
 
+
 ### 2.SQL限制
 
 2.1 支持savepoint语句（该语句将被分发到主节点）， 但暂不支持 rollback to savepoint
@@ -70,9 +71,15 @@ call udb\_test('000001',@pp,@qq); select @pp,@qq; select \* from t1;
 
 3.2 不允许在一条Set语句中，同时出现Global变量和Session、User变量。
 
+3.3 不支持 set sql_mode 中的值为表达式(e.g set sql_mode=(select replace(@@sql_mode,'ONLY_FULL_GROUP_BY,','')))
+
+3.4 暂时不支持 set sql_mode='XXX',sql_safe_updates='XXX',.... 这种set多个变量的语法。
+
+3.5 暂时不支持mysql8.0 caching_sha2_password的加密算法，若客户端采用caching_sha2_password加密算法，代理会协调客户端和服务端使用mysql_native_password方式
+
 ### 4.不推荐使用读写分离的场景
 
 a. 业务的SQL均为事务SQL（所有SQL都包含在事务中）， 由于事务只能被路由到主节点，故该场景下UDB读写分离无法起到分离读请求的作用
 
-b. 业务使用了大量存储过程。 由于存储过程只能被路由到主节点，故该场景下UDB读写分离无法起到分离读请求的作用需要修改的点
+b. 业务使用了大量存储过程。 由于存储过程只能被路由到主节点，故该场景下UDB读写分离无法起到分离读请求的作用
 
