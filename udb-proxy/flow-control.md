@@ -1,7 +1,7 @@
-# sql限流
+# SQL限流
 
 
-## 进入sql限流
+## 进入SQL限流
 
 在数据库代理页面代理信息的最右侧，是sql限流模版，点击编辑按钮，即可进入sql限流设置页面
 ![image](/images/flow-control-1.png)

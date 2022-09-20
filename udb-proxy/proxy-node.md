@@ -1,4 +1,4 @@
-# 代理节点
+# 配置管理
 
 
 ## 修改节点配置
@@ -9,20 +9,10 @@
 里面有两种选项，修改节点配置和增加节点数量，选择想要到配置点击确定即可修改。
 ![img.png](/images/proxy-node-2.png)
 
+## 扩缩节点
 修改节点数量
 ![img.png](/images/proxy-node-3.png)
 
 点击确定后，代理状态和节点状态都处于升降级中，在升降级后节点状态处于已关闭状态，需手动点击启动按钮。
 ![img.png](/images/proxy-node-4.png)
 
-## 修改最大连接数
-
-在数据库代理详情页面，代理节点卡片处，有连接数配置，点击右侧编辑按钮，跳出修改最大连接数弹框
-![img.png](/images/proxy-node-6.png)
-点击确定即可修改连接数
-![img.png](/images/proxy-node-5.png)
-
-## 设置延迟阈值
-
-与修改连接数相同，点击延迟阈值右侧编辑按钮即可编辑
-![img.png](/images/proxy-node-7.png)
