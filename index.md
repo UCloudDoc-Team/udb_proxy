@@ -1,4 +1,3 @@
-## 目录
 
 * [介绍](https://docs.ucloud.cn/udb_proxy/introduce/introduce)
 * [功能与限制](https://docs.ucloud.cn/udb_proxy/limit/theory)
