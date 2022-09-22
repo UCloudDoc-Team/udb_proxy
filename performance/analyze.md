@@ -18,10 +18,16 @@ sysbench --test=/usr/share/sysbench/oltp_read_only.lua --db-driver=mysql --mysql
 
 
 ## 读请求随压力变化曲线
-![image](../images/udb-proxy-analyze-3.png)
+![image](/images/udb-proxy-analyze-3.png)
 如上图所示，我们采用2个代理节点针对一主双从的6C8G UDB MySQL实例进行不同压力连接数据库代理进行性能测试。
-可以看到当数据库请求压力增大时，使用数据库代理展现出很好的稳定性。而直连主库会因为压力的增加展示除性能下降的一面。
+可以看到当数据库请求压力增大时，使用数据库代理展现出很好的稳定性。而直连主库会因为压力的增加展示出性能下降的一面。
 同时，我们观察了不同情况下主从库的CPU压力情况，得到了如下曲线：
-![image](../images/udb-proxy-analyze-4.png)
+![image](/images/udb-proxy-analyze-4.png)
 从图中可以看出，请求压力会被分摊到从库中，从而减少主库压力以提升性能。
+
+## 代理不同配置数据库性能对比
+![image](/images/udb-proxy-analyze-5.png)
+上图展示了使用数据库代理在不同数据库配置之间的性能差异，这里代理节点数量和数据库数量保持一致。
+可以看到当请求压力足够大时，通过数据库代理访问，能更好的发挥出数据库集群的服务性能。
+
 
