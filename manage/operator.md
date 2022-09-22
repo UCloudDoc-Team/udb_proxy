@@ -7,7 +7,7 @@
 点击数据库代理标签，即可看到立即开通按钮。
 ![image](/images/udb-proxy-operator2.png)
 
-选择一个合适的代理机型，配置节点数量，并打开从库统一开启按钮，最终勾选右下角单选框后点击确定按钮（点击查看[功能与限制](https://cms-docs.ucloudadmin.com/udb_proxy/limit/theory?id=功能限制) ）
+选择一个合适的代理机型，配置节点数量，并打开从库统一开启按钮，最终勾选右下角单选框后点击确定按钮（点击查看[功能与限制](/udb_proxy/limit/theory?id=功能限制) ）
 ![image](/images/udb-proxy-operator3.png)
 
 等待一小段时间后，即可看到数据库代理详细页面，此时代理状态为初始化中。再等待一段时间即可看到代理变为为运行状态。
