@@ -1,4 +1,4 @@
-<div class="sidebar_title icon-product__icon__udbproxy" title="云数据库读写分离中间件 UDBProxy">云数据库读写分离中间件 UDBProxy</div>
+<div class="sidebar_title icon-product__udbproxy" title="云数据库读写分离中间件 UDBProxy">云数据库读写分离中间件 UDBProxy</div>
 
 * [介绍](/udb_proxy/introduce/introduce)
 * [功能特性](/udb_proxy/feature/function-advance)
