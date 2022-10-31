@@ -1,6 +1,4 @@
-<!-- 请勿添加产品标题，标题行将由系统自动增加，名称将于您申请邮件提供的仓库名称一致 -->
-
-
+<div class="sidebar_title icon-product__udbproxy" title="云数据库读写分离中间件 UDBProxy">云数据库读写分离中间件 UDBProxy</div>
 
 * [介绍](/udb_proxy/introduce/introduce)
 * [功能特性](/udb_proxy/feature/function-advance)
@@ -14,4 +12,6 @@
   * [SQL限流](/udb_proxy/manage/flow-control)
 * [安全组说明](/udb_proxy/sec/sec-group)
 * [性能对比](/udb_proxy/performance/analyze)
+
+
 
