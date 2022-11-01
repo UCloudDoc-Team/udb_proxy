@@ -26,3 +26,18 @@
 规则的优先级为0，以用来允许MySQL和数据库代理之间的通信。
 ![img.png](/images/udb-proxy-secgroup4.png)
 
+
+## 使用示例
+
+首先创建MySQL实例，并确保MySQL已加入到安全组当中
+![img.png](/images/udb-proxy-secgroup5.png)
+![img.png](/images/udb-proxy-secgroup6.png)
+
+[开启数据库代理](/udb_proxy/manage/operator)后回到安全组页面，会发现多出一个以代理id作为开头的安全组
+其入站规则为默认规则
+![img.png](/images/udb-proxy-secgroup7.png)
+点击MySQL的安全组详情，可以看到安全组多了一条规则
+![img.png](/images/udb-proxy-secgroup8.png)
+![img.png](/images/udb-proxy-secgroup9.png)
+如果想禁止某个ip通过代理访问数据库的话，可以在代理的安全组添加拒绝规则，具体操作参考[安全组操作文档](https://docs.ucloud.cn/vpc/guide/secgroup)
+![img.png](/images/udb-proxy-secgroup10.png)
