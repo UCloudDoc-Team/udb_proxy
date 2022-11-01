@@ -39,5 +39,8 @@
 点击MySQL的安全组详情，可以看到安全组多了一条规则
 ![img.png](/images/udb-proxy-secgroup8.png)
 ![img.png](/images/udb-proxy-secgroup9.png)
-如果想禁止某个ip通过代理访问数据库的话，可以在代理的安全组添加拒绝规则，具体操作参考[安全组操作文档](https://docs.ucloud.cn/vpc/guide/secgroup)
+如果想禁止某个ip通过代理访问数据库的话，可以在代理的安全组添加拒绝规则
 ![img.png](/images/udb-proxy-secgroup10.png)
+
+具体详细操作参考[安全组操作文档](https://docs.ucloud.cn/vpc/guide/secgroup)
+
