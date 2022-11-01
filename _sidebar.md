@@ -10,6 +10,7 @@
   * [代理管理](/udb_proxy/manage/proxy-manage)
   * [权重管理](/udb_proxy/manage/read-weight)
   * [SQL限流](/udb_proxy/manage/flow-control)
+* [安全组说明](/udb_proxy/sec/sec-group)
 * [性能对比](/udb_proxy/performance/analyze)
 
 
