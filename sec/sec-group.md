@@ -33,7 +33,7 @@
 ![img.png](/images/udb-proxy-secgroup5.png)
 ![img.png](/images/udb-proxy-secgroup6.png)
 
-[开启数据库代理](/udb_proxy/manage/operator)后回到安全组页面，会发现多出一个以代理id作为开头的安全组
+[开启数据库代理](/udb_proxy/manage/operator)后回到安全组页面，会发现多出一个以代理ID作为开头的安全组
 其入站规则为默认规则
 ![img.png](/images/udb-proxy-secgroup7.png)
 点击MySQL的安全组详情，可以看到安全组多了一条规则
@@ -41,6 +41,13 @@
 ![img.png](/images/udb-proxy-secgroup9.png)
 如果想禁止某个ip通过代理访问数据库的话，可以在代理的安全组添加拒绝规则
 ![img.png](/images/udb-proxy-secgroup10.png)
+在实际生产中，如果想让数据库只能由代理访问，不允许通过其他途径访问的话，我们可以设置一个高优先级的拒绝规则拒绝所有ip段，并放行组内(数据库之间)的网络
+![img.png](/images/udb-proxy-secgroup11.png)
+如下展示了在数据库中添加了拒绝规则前后直连MySQL数据库的情况
+![img.png](/images/udb-proxy-secgroup12.png)
+同时，我们通过代理进行连接，可以直接连接到数据库
+![img.png](/images/udb-proxy-secgroup13.png)
 
-具体详细操作参考[安全组操作文档](https://docs.ucloud.cn/vpc/guide/secgroup)
+
+具体安全组相关详细操作参考[安全组操作文档](https://docs.ucloud.cn/vpc/guide/secgroup)
 
