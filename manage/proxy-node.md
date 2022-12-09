@@ -17,6 +17,7 @@
 ![img.png](/images/proxy-node-10.png)
 
 ## 缩容节点
+
 删除某个节点
 ![img.png](/images/proxy-node-8.png)
 
