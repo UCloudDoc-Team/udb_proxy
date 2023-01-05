@@ -3,6 +3,9 @@
 * [介绍](/udb_proxy/introduce/introduce)
 * [功能特性](/udb_proxy/feature/function-advance)
 * [功能与限制](/udb_proxy/limit/theory)
+* 计费说明
+  * [计费指南](/udb_proxy/fee/bill)
+  * [回收与删除](/udb_proxy/fee/recycle)
 * 操作与使用
   * [实例管理](/udb_proxy/manage/operator)
   * [配置管理](/udb_proxy/manage/proxy-node)
