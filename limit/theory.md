@@ -39,7 +39,6 @@ Select 语句， 也只会发送到主节点。
 
 1.3 暂不支持XA事物
 
-
 ### 2.SQL限制
 
 2.1 支持savepoint语句（该语句将被分发到主节点）， 但暂不支持 rollback to savepoint
