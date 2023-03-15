@@ -60,6 +60,9 @@ call udb\_test('000001',@pp,@qq); select @pp,@qq; select \* from t1;
 
 2.6 暂不支持COM_TABLE_DUMP和COM_CHANGE_USER协议。
 
+2.7 如果执行了[Multi-Statement](https://dev.mysql.com/doc/c-api/8.0/en/c-api-multiple-queries.html) 语句，
+当前连接的后续请求读写分离失效，会全部路由到主节点，需断开当前连接并重新连接才能恢复读写分离。
+
 ### 3.对Set语句的特别说明
 
 3.1 Set Session、Set User变量语句， 将被广播到主节点和从节点，如果广播失败，Proxy将断开和客户端连接，
