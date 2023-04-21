@@ -10,7 +10,7 @@
 ## 进入SQL限流
 
 在数据库代理页面代理信息的右侧，是SQL限流模板，点击编辑按钮，即可进入SQL限流设置页面
-![image](/images/flow-control-9.png)
+![image](/images/flow-control-10.png)
 
 在页面左上角有创建模板按钮，点击出现创建限流模板弹框
 ![image](/images/flow-control-2.png)
