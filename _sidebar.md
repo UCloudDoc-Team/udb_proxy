@@ -16,6 +16,6 @@
   * [SQL路由](/udb_proxy/manage/sql-router)
 * [安全组说明](/udb_proxy/sec/sec-group)
 * [性能对比](/udb_proxy/performance/analyze)
-
+* [FAQs](/udb_proxy/question/faqs)
 
 
