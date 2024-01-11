@@ -14,6 +14,7 @@
   * [权重管理](/udb_proxy/manage/read-weight)
   * [SQL限流](/udb_proxy/manage/flow-control)
   * [SQL路由](/udb_proxy/manage/sql-router)
+  * [版本升级](/udb_proxy/manage/version-upgrade)
 * [安全组说明](/udb_proxy/sec/sec-group)
 * [性能对比](/udb_proxy/performance/analyze)
 * [数据库代理版本Release Notes](/udb_proxy/version/version)
