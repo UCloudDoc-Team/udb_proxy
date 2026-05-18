@@ -5,6 +5,7 @@
 * 操作与使用
   * [实例管理](/udb_proxy/manage/operator)
   * [配置管理](/udb_proxy/manage/proxy-node)
+  * [域名访问](/udb_proxy/manage/domain_entry)
   * [参数管理](/udb_proxy/manage/node-param)
   * [代理管理](/udb_proxy/manage/proxy-manage)
   * [权重管理](/udb_proxy/manage/read-weight)
